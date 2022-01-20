@@ -15,9 +15,6 @@
 			HeaderTop,
 			HeaderMenu
 		},
-		methods: {
-			
-		}
 	}
 </script>
 

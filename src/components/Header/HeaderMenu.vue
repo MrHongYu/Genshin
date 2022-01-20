@@ -17,6 +17,7 @@
 				<el-menu-item v-for="item2 in list2" :key="item2.id" :index="item2.router">{{item2.name}}</el-menu-item>
 			</el-submenu>
 			<el-menu-item index="4"><a href="https://wiki.biligame.com/ys/%E9%A6%96%E9%A1%B5" target="_blank">其他</a></el-menu-item>
+			<HeaderSearch/>
 		</el-menu>
 		<el-container>
 			<el-main>
@@ -29,8 +30,12 @@
 </template>
 
 <script>
+	import HeaderSearch from './HeaderSearch.vue'
 	export default {
 		name:'HeaderMenu',
+		components:{
+			HeaderSearch,
+		},
 		data() {
 			return {
 				list:[{
