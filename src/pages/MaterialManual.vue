@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<h1>我是材料图鉴</h1>
+		<h1>材料图鉴</h1>
 	</div>
 </template>
 

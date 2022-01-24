@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<h1>我是怪物图鉴</h1>
+		<h1>怪物图鉴</h1>
 	</div>
 </template>
 

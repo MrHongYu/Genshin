@@ -1,13 +1,13 @@
 <template>
 	<div>
-		<h1>我是角色图鉴</h1>
+		<h1>角色筛选</h1>
 	</div>
 </template>
 
 <script>
 	export default{
-		// 角色图鉴
-		name:'RoleManual',
+		// 角色筛选
+		name:'RoleScreen',
 	}
 </script>
 
